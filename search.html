@@ -1,0 +1,40 @@
+<div ng-controller="searchController as sc" class="jumbotron container narrow-container">
+    <div class="page-header">
+        <h2>Image Search</h2>
+    </div>
+    <div class="form-group">
+        <span class="help-block">Please select a image from your computer or take new photo.</span>
+        <input type="file" id="inputFile" accept='image/*' on-change="fileChanged" style="display: none;">
+        <div id="selectBtn" class="panel panel-success">
+            <div class="panel-heading">
+                <div class="btn-group btn-group-justified" role="group">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-lg btn-lgreen" onclick="$('#inputFile').click()">Select a image</button>
+                  </div>
+
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-lg btn-lgreen" ng-click="beforeUpdate();cameraTpl='takePhoto.html'" id="tpl-link">Take new photo</button>
+                  </div>
+                </div>
+                <a id="removeCamera" ng-click="cameraTpl='noCamera.html'">aaaa</a>
+            </div>
+        </div>
+    </div>
+    <div id="tpl-content" ng-include src="cameraTpl"  onload="enablePhoto()"></div>
+    <img id="showImg" src="" class="center-block img-thumbnail"/>
+
+    <button type="submit" id="searchBtn" class="btn btn-lg center-block" ng-click="submitImg()" disabled>Search</button>
+
+    <script id="takePhoto.html" type="text/ng-template">
+        <ng-camera class="center-block"
+                viewer-width="{{$(window).width()}}"
+                viewer-height="400"
+                image-format="jpeg"
+                jpeg-quality="100"
+                action-message="Take new photo"
+                snapshot="sc.photo"
+        ></ng-camera>
+        <img id="photoData" src="" ng-src="{{sc.photo}}"/>
+    </script>
+    <script id="noCamera.html" type="text/ng-template"></script>
+</div>

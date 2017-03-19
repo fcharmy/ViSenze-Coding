@@ -1,0 +1,33 @@
+<div ng-controller="resultController" class="container">
+    <div class="page-header" name="top">
+        <h4>Result</h4>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-md-4">
+            <img id="reshowImg" src="" class="img-thumbnail center-block"/>
+        </div>
+        <div class="col-xs-6 col-md-4">
+            <a href="#/" id='back' class="btn btn-lg btn-primary">Search</a>
+        </div>
+    </div>
+
+
+    <hr>
+    <div class="row">
+          <div class="col-xs-6 col-md-4" ng-repeat = "img in images">
+            <div class="thumbnail">
+              <img ng-src="{{img.path}}" alt="" class="img-rounded">
+              <div class="caption">
+                <h4>Tags
+                  <span class="label label-primary" ng-repeat = "t in img.tags">{{t}}</span>
+                </h4>
+                <p>{{img.path}}</p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="navbar-fixed-bottom dropup">
+        <span id="backTop" ng-click="toTop()"><span class="caret"> </span> Back to Top</span>
+    </div>
+</div>
