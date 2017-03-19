@@ -3,7 +3,7 @@
 ## Search Page
 ![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo1.png)
 ## Select a image from computer
-![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo2.png | height=100)
+![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo2.png)
 ## Take a new photo from camera
 ![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo3.png)
 ## Result Page (three columns)
