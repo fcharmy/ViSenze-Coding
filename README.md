@@ -8,5 +8,5 @@
 ![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo3.png)
 ## Result Page (three columns)
 ![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo4.png)
-## Result Page in small device (two columns)
+## Result Page on small devices (two columns)
 ![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo5.png)
