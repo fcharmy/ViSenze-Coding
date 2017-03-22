@@ -1,4 +1,5 @@
 # ViSenze-Coding
+[View Page](https://fcharmy.github.io/ViSenze-Coding/)
 
 ## Search Page
 ![](https://github.com/fcharmy/ViSenze-Coding/blob/master/img/demo1.png)
