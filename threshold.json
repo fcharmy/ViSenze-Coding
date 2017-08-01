@@ -1,0 +1,16 @@
+{
+    "EnlargeAllClass_7class": {
+        "Asos": 0.7,
+        "Nonfashion": -0.3,
+        "Snapchat": -0.3,
+        "Notvisible": -0.3,
+        "Poorquality": -0.3,
+        "Two": 0,
+        "Watermark": -0.3
+    },
+    "image_text": {"no_text": 0.7, "text": -0.3},
+    "image_collage": {"no_collage": 0.7, "collage": -0.3},
+    "image_detail": {"no_detail": 0.7, "detail": -0.3},
+    "image_mosaic": {"no_mosaic": 0.7, "mosaic": -0.3},
+    "porn_detection": {"non-porn": 0.5, "exposure": -0.5}
+}
