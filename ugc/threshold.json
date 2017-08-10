@@ -12,5 +12,5 @@
     "image_collage": {"no_collage": 0.7, "collage": -0.3},
     "image_detail": {"no_detail": 0.7, "detail": -0.3},
     "image_mosaic": {"no_mosaic": 0.7, "mosaic": -0.3},
-    "porn_detection": {"non-porn": 0.7, "porn": -0.3}
+    "porn_detection": {"non-porn": 0.7, "exposure": -0.3}
 }
