@@ -16,5 +16,9 @@
         "non-porn": 0.7, 
         "porn": -0.5, 
         "exposure": -0.3
+    },
+    "image_human": {
+        "model": 0,
+        "no_model": 0
     }
 }
